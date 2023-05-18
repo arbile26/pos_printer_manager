@@ -1,12 +1,15 @@
 import 'dart:ffi';
 import 'dart:io';
 import 'dart:typed_data';
+
 import 'package:ffi/ffi.dart';
+import 'package:flutter_esc_pos_utils_image_3/flutter_esc_pos_utils_image_3.dart';
 import 'package:flutter_usb_printer/flutter_usb_printer.dart';
-import 'package:win32/win32.dart';
 import 'package:pos_printer_manager/models/pos_printer.dart';
 import 'package:pos_printer_manager/pos_printer_manager.dart';
 import 'package:pos_printer_manager/services/printer_manager.dart';
+import 'package:win32/win32.dart';
+
 import 'extension.dart';
 import 'usb_service.dart';
 
@@ -32,7 +35,7 @@ class USBPrinterManager extends PrinterManager {
     PaperSize paperSize,
     CapabilityProfile profile, {
     int spaceBetweenRows = 5,
-    int port: 9100,
+    int port = 9100,
   }) {
     super.printer = printer;
     super.address = printer.address;
@@ -49,7 +52,7 @@ class USBPrinterManager extends PrinterManager {
 
   @override
   Future<ConnectionResponse> connect(
-      {Duration? timeout: const Duration(seconds: 5)}) async {
+      {Duration? timeout = const Duration(seconds: 5)}) async {
     if (Platform.isWindows) {
       try {
         docInfo = calloc<DOC_INFO_1>()
