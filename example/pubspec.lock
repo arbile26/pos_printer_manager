@@ -33,14 +33,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.3"
-  bidi:
-    dependency: transitive
-    description:
-      name: bidi
-      sha256: dc00274c7edabae2ab30c676e736ea1eb0b1b7a1b436cb5fe372e431ccb39ab0
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.6"
   blue_thermal_printer:
     dependency: transitive
     description:
@@ -158,14 +150,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_esc_pos_utils_image_3:
+  flutter_esc_pos_utils:
     dependency: transitive
     description:
-      name: flutter_esc_pos_utils_image_3
-      sha256: "27095d4ab248fc8f563839e4c954f7133f7cb8b36ec82c7e1c9947065ebed131"
+      name: flutter_esc_pos_utils
+      sha256: "0c55e4ebe0639ba6d93ad88a8fbd1b3a31f2ff3db0fc3dd0d357edc16f6656bf"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.9"
+    version: "0.1.8"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -228,15 +220,7 @@ packages:
     dependency: transitive
     description:
       name: image
-      sha256: ac57358d2b2171aae239afab4aaba187b3e406bd109317e72053621c1ef60a27
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.0.0"
-  image_v3:
-    dependency: transitive
-    description:
-      name: image_v3
-      sha256: dd9f790f2397dd243a74e606a57780e03e2fb67f372baf587e7780c37bd0258d
+      sha256: "8e9d133755c3e84c73288363e6343157c383a0c6c56fc51afcc5d4d7180306d6"
       url: "https://pub.dev"
     source: hosted
     version: "3.3.0"
@@ -356,10 +340,10 @@ packages:
     dependency: transitive
     description:
       name: pdf
-      sha256: "70d84154dc5b6ddf28eee6c012510a4cbbebb3a1879c0957e05364a95e8f3832"
+      sha256: "10659b915e65832b106f6d1d213e09b789cc1f24bf282ee911e49db35b96be4d"
       url: "https://pub.dev"
     source: hosted
-    version: "3.10.3"
+    version: "3.8.4"
   petitparser:
     dependency: transitive
     description:

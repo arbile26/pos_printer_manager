@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:blue_thermal_printer/blue_thermal_printer.dart' as themal;
-import 'package:flutter_esc_pos_utils_image_3/flutter_esc_pos_utils_image_3.dart';
+import 'package:flutter_esc_pos_utils/flutter_esc_pos_utils.dart';
 import 'package:pos_printer_manager/models/pos_printer.dart';
 import 'package:pos_printer_manager/pos_printer_manager.dart';
 
