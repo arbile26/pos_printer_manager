@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_esc_pos_utils/flutter_esc_pos_utils.dart';
+import 'package:esc_pos_utils/esc_pos_utils.dart';
 import 'package:pos_printer_manager/models/pos_printer.dart';
 import 'package:pos_printer_manager/pos_printer_manager.dart';
 
