@@ -14,7 +14,8 @@ dependencies:
   #   path: ./../flutter_blue
 
   # path: ./../esc_pos_utils_plus
-  blue_thermal_printer: ^1.1.8
+  blue_thermal_printer:
+    git: https://github.com/kakzaki/blue_thermal_printer.git
   esc_pos_utils:
     git:
       url: https://github.com/Heinrich-vanNieuwenhuizen/esc_pos_utils.git
@@ -29,10 +30,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    
-dependency_overrides:
-  blue_thermal_printer:
-    git: https://github.com/kakzaki/blue_thermal_printer.git
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
